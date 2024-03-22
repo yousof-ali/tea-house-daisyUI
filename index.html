@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="images/cup.png" />
     <title>tea-house</title>
     <!-- font awesome  -->
     <script src="https://kit.fontawesome.com/632b5f3b09.js" crossorigin="anonymous"></script>
@@ -42,7 +43,7 @@
                 <h1 class="text-6xl font-extrabold">It's good <br>
                     tea time at <br> The Tea House</h1>
                 <p class="py-6 ">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
-                <button class="btn btn-primary">Explore More</button>
+                <button class="btn btn-primary bg-gradient-to-r from-[#FB8645] to-[#FA001C] border-0 text-white">Explore More <img src="images/arrow.png" alt=""></button>
               </div>
               <div>
                 <img src="images/banner.png" class="w-full" />
@@ -130,7 +131,7 @@
             <div class="flex-1 space-y-6">
                 <h2 class="text-4xl font-bold text-white">Meet Our Super <br> Clients</h2>
                 <p class="text-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
-                <button class="btn btn-primary">Show All</button>
+                <button class="btn btn-primary bg-white border-0 text-black">Show All</button>
             </div>
             <div class="flex-1 relative ml-16 m:ml-0 lg:ml-0">
                 <!-- upcoming review  -->
@@ -146,6 +147,9 @@
                     <p>We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
                     <h4 class="font-bold mt-5">Ilham Yuda</h4>
                     <p class="font-medium"> Businessman</p>
+                    <div>
+                        <img class="absolute right-10 bottom-10" src="images/circles.png" alt="">
+                    </div>
                 </div>
                 <!-- previous review  -->
                 <div class="p-4 opacity-40 md:p-10 relative rounded-lg bg-white">
@@ -199,5 +203,53 @@
             </div>
         </section>
     </main>
+    <!-- footer start  -->
+    <footer class="bg-gradient-to-r from-[#FFF3EC] to-[#FEE6E6] py-16 mt-24">
+        <div class="container mx-auto px-8 md:px-4 lg:px-0">
+            <div class="flex justify-between">
+                <img src="images/cup.png" alt="">
+                <div class="md:flex items-center gap-4">
+                    <p class="font-semibold text-xl md:mb-0 mb-2">Ready to get strated?</p>
+                    <button class="btn btn-primary bg-gradient-to-r from-[#FB8645] to-[#FA001C] border-0 text-white ">Get Started</button>
+                </div>
+            </div>
+            <div class=" grid grid-cols-2 gap-12 md:gap-0 md:flex justify-between my-12 ">
+                <div class="flex flex-col space-y-2">
+                    <h4 class="font-bold text-xl mb-3">Quick Links</h4>
+                    <a href="">Home</a>
+                    <a href="">About Us</a>
+                    <a href="">Insurance</a>
+                    <a href="">Privacy Policy</a>
+                </div>
+                <div class="flex flex-col  space-y-2 text-right md:text-left">
+                    <h4 class="font-bold text-xl mb-3">Our Service</h4>
+                    <a href="">Life Insurance</a>
+                    <a href="">Car Insurance</a>
+                    <a href="">Health Insurance</a>
+                    <a href="">House Insurance</a>
+                </div>
+                <div class="flex flex-col  space-y-2">
+                    <h4 class="font-bold text-xl mb-3">Help</h4>
+                    <a href="">FAQs</a>
+                    <a href="">Contact</a>
+                </div>
+                <div class="space-y-4 text-right md:text-left">
+                    <h4 class="font-bold text-2xl mb-3">Subscribe to our <br> newsletter</h4>
+                    <div class="flex items-center justify-end lg:gap-6 ">
+                        <input type="email" placeholder="Email address" class="bg-[#ff000000] outline-none border-b-2 border-[#FA001C] py-4">
+                        <a href=""><i class="fas fa-chevron-right rounded-full px-3 py-2 bg-gradient-to-r from-[#FB8645] to-[#FA001C] text-white"></i></a>
+                    </div>
+                    <div class="flex justify-center md:justify-start gap-6 text-2xl ">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center text-[#000000a1]">© 2024 Yousof Ali - All rights reserved.</p>
+
+        </div>
+    </footer>
 </body>
 </html>
