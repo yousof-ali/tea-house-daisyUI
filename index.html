@@ -66,7 +66,7 @@
             <h2 class="text-4xl font-extrabold">Our Featured Products</h2>
             <p class="lg:max-w-4xl m-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
  
-            <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
+            <div class="grid grid-cols-1 gap-10 md:gap-12 lg:gap-20 md:grid-cols-2 lg:grid-cols-4">
 
                 <div class="card  bg-gradient-to-b p-8 from-[#F4F4F4] to-[#f4f4f43c] shadow-xl">
                     <figure><img src="images/tea-1.png" alt="Shoes" /></figure>
@@ -126,18 +126,75 @@
             </div>
         </section>
         <!-- supur section  -->
-        <section class="rounded-xl flex flex-col gap-20 md:gap-4 md:flex-row justify-center items-center bg-gradient-to-r from-[#FB8645] to-[#FA001C]  p-8 md:px-16 md:py-24">
+        <section class="rounded-xl p-10 flex flex-col gap-4 md:gap-12 lg:gap-32 md:flex-row justify-center items-center bg-gradient-to-r from-[#FB8645] to-[#FA001C]  md:p-8 lg:px-16 lg:py-24">
             <div class="flex-1 space-y-6">
-                <h2 class="text-5xl font-bold text-white">Meet Our Super <br> Clients</h2>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                <h2 class="text-4xl font-bold text-white">Meet Our Super <br> Clients</h2>
+                <p class="text-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
                 <button class="btn btn-primary">Show All</button>
             </div>
-            <div class="flex-1">
-                <div class="p-10 relative rounded-lg bg-white">
-                    <img src="images/client.png"  class="absolute -top-4 border-4 border-white rounded-full bg-white -left-4" alt="">
+            <div class="flex-1 relative ml-16 m:ml-0 lg:ml-0">
+                <!-- upcoming review  -->
+                <div class="p-4 mt-20 md:mt-0 lg-mt-0 opacity-40 md:py-12 mb-12 relative rounded-lg bg-white">
+                    <img src="images/client.png"  class="absolute md:-top-4 border-4 border-white rounded-full -top-12 -left-6 bg-white md:-left-4" alt="">
                     <p>We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
                     <h4 class="font-bold mt-5">Ilham Yuda</h4>
                     <p class="font-medium"> Businessman</p>
+                </div>
+                <!-- current review  -->
+                <div class="p-4 md:p-10 absolute  lg:w-[450px] md:w-[320px] w-11/12 lg:top-28 md:top-32 lg:-left-20 md:-left-12 rounded-lg bg-white top-52 -left-16">
+                    <img src="images/client.png"  class="absolute md:-top-4 border-4 border-white rounded-full -top-12 -left-6 bg-white md:-left-4" alt="">
+                    <p>We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                    <h4 class="font-bold mt-5">Ilham Yuda</h4>
+                    <p class="font-medium"> Businessman</p>
+                </div>
+                <!-- previous review  -->
+                <div class="p-4 opacity-40 md:p-10 relative rounded-lg bg-white">
+                    <img src="images/client.png"  class="absolute md:-top-4 border-4 border-white rounded-full -top-12 -left-6 bg-white md:-left-4" alt="">
+                    <p>We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                    <h4 class="font-bold mt-5">Ilham Yuda</h4>
+                    <p class="font-medium"> Businessman</p>
+                </div>
+            </div>
+        </section>
+        <!-- news section  -->
+        <section>
+            <div class="flex-1 space-y-6">
+                <h3 class="text-4xl font-bold text-center">News & Events</h3>
+                <p class="lg:max-w-4xl m-auto text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+            </div>
+            <div class="flex flex-col md:flex-row gap-10 md:gap-6 lg:gap-20 mt-8">
+                <div class="card p-10 lg:py-10 lg:px-8 shadow-xl space-y-10">
+                    <figure class="">
+                      <img src="images/news-1.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class=" items-center text-left space-y-4 ">
+                      <p>Feb 05, 2027</p>
+                      <h2 class="text-left text-2xl font-bold">Collecting 8 points for discount!</h2>
+                      <p>There are many variations of passages of Lorem Ipsum available.</p>
+                      <a href="" class="inline-block font-bold">Learn More</a>
+                    </div>
+                </div>
+                <div class="card p-10 lg:py-10 lg:px-8 shadow-xl space-y-10">
+                    <figure class="">
+                      <img src="images/news-1.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class=" items-center text-left space-y-4 ">
+                      <p>Feb 05, 2027</p>
+                      <h2 class="text-left text-2xl font-bold">Collecting 8 points for discount!</h2>
+                      <p>There are many variations of passages of Lorem Ipsum available.</p>
+                      <a href="" class="inline-block font-bold">Learn More</a>
+                    </div>
+                </div>
+                <div class="card p-10 lg:py-10 lg:px-8 shadow-xl space-y-10">
+                    <figure class="">
+                      <img src="images/news-1.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class=" items-center text-left space-y-4 ">
+                      <p>Feb 05, 2027</p>
+                      <h2 class="text-left text-2xl font-bold">Collecting 8 points for discount!</h2>
+                      <p>There are many variations of passages of Lorem Ipsum available.</p>
+                      <a href="" class="inline-block font-bold">Learn More</a>
+                    </div>
                 </div>
             </div>
         </section>
